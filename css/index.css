@@ -1,0 +1,286 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-18 19:36:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-19 19:45:19
+*/
+html,body{
+	background-color: #fff;
+	color: #fff;
+}
+/* 头部 */
+.lt-search{
+	width: 100%;
+	height: 44px;
+	background-color: #006699;
+	position: relative;
+}
+.lt-search h2{
+	font-size: 18px;
+	text-align: center;
+	line-height: 44px;
+	color: #fff; 
+}
+.lt-search i{
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	top: 10px;
+	right: 15px;
+	background-position: -65px -30px;
+	background-image: url("../images/jd-sprites.png");
+	-webkit-background-size: 200px 200px;
+	background-size: 200px 200px;
+}
+
+/* 轮播图 */
+.content{
+	width: 100%;
+	/* position: relative; */
+}
+.banner{
+	width: auto;
+	height: 190px;
+	position: relative;
+
+}
+ .banner .banner-img img{
+	width: 100%;
+	height: 190px;
+	vertical-align: middle;
+}
+ .banner .banner-img ul{
+position: absolute;
+bottom: 12px;
+left: 50%;
+transform: translate(-50%);
+ }
+.banner .banner-img ul li{
+list-style: none;
+float: left;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+margin: 0 8px;
+background-color: #aaa;
+}
+.banner .banner-img ul li:nth-child(4){
+	background-color: #fff;
+}
+
+
+/* 鞋类 */
+
+.nav ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 10px 0;
+}
+.nav ul li{
+	width:30% ;
+}
+.nav ul li img{
+	width: 100%;
+}
+
+.nav .line{
+	width: 100%;
+	height: 2px;
+	background-color: #aaa;
+}
+
+.sale{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sale .sale-l{
+	width: 60%;
+	float: left;
+}
+.sale .sale-l ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sale .sale-l ul li{
+	width: 50%;
+	height: auto;
+}
+.sale .sale-l ul li img{
+width:100%;
+height: 100%;
+}
+
+.sale .sale-r{
+float: left;
+width: 30%;
+
+}
+.sale .sale-r img{
+width: 100%;
+height: auto;
+}
+.brand{
+	width: 100%;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+
+}
+.brand img{
+	width: 90%;
+	height: 90%;
+}
+
+
+.sports{
+	width: 100%;
+	/* height: 300px; */
+	
+}
+.sports ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sports ul li{
+width: 24%;
+	/* height: auto; */
+}
+.sports ul li img{
+width: 100%;
+	/* height: auto; */
+}
+.life{
+	width: 100%;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+
+}
+
+.life  img{
+	width: 90%;
+	height: 90%;
+	/* display: block; */
+	/* margin-bottom: 20px; */
+}
+
+.life-shoes{
+	width: 100%;
+	box-sizing: border-box;
+
+
+}
+.life-shoes ul{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	/* overflow: hidden; */
+}
+.life-shoes ul li{
+	width: 42%;
+	margin: 2%;
+	float: left;
+	text-align: center;
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 10px 1px #ccc;
+}
+.life-shoes ul li:nth-child(3){
+	margin-bottom: 30%;
+}
+.life-shoes ul li:nth-child(4){
+	margin-bottom: 30%;
+}
+.life-shoes ul li img{
+	width: 100%;
+	/* height: 50%; */
+	/* vertical-align: middle; */
+}
+.life-shoes ul li p{
+	margin-bottom: 5px;
+}
+.life-shoes ul li span{
+	color: red;
+}
+.life-shoes ul li del {
+color: #ccc;
+text-decoration: line-through;
+}
+.life-shoes ul li a{
+	width: 80px;
+	height: 20px;
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	margin: 5px 0;
+	text-align: center;
+	margin-left:50%;
+	transform: translate(-50%);
+	background-color:#006699 ;
+}
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #006699;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	/* position: relative; */
+}
+
+footer ul{
+	width: 100%;
+
+}
+footer ul li{
+	float: left;
+	text-align: center;
+	width: 25%;
+	/* line-height: 60px; */
+
+
+}
+
+footer ul li i{
+	margin-top: 5px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/jd-sprites.png");
+	-webkit-background-size: 200px 200px;
+	background-size: 200px 200px;
+}
+footer ul li span{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 5px;
+}
+footer ul li:first-child i{
+	background-position: -35px -30px;
+	background-clip: content-box;
+}
+footer ul li:nth-child(2) i{
+	background-position: -1px -28px;
+	background-clip: content-box;
+}
+footer ul li:nth-child(3) i{
+	width: 25px;
+	/* height: 25px; */
+	background-position: -93px -30px;
+	background-clip: content-box;
+}
+footer ul li:nth-child(4) i{
+	background-position: -127px -32px;
+	background-clip: content-box;
+}
